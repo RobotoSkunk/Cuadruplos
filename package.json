@@ -1,0 +1,14 @@
+{
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "name": "cuadruplos",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^18.6.3"
+  }
+}
