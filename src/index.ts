@@ -39,10 +39,6 @@ const rows: TableRow[] = [];
 		console.log('La ecuación ingresada no es válida. Sólo se admiten números y operadores aritméticos.');
 		return;
 	}
-	if (answer.split('').filter(x => x.match(/[+\-*/\^]/)).length !== 4) {
-		console.log('La ecuación ingresada debe tener únicamente 4 operadores.');
-		return;
-	}
 	// #endregion
 
 	// #region Separate the input value into tokens
