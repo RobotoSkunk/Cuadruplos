@@ -72,7 +72,7 @@ const rows: TableRow[] = [];
 	for (const c of equation) {
 		if (c.match(/\d/)) { mainStack.push(c); continue; }
 		if (c === '(') { opStack.push(c); continue; }
-		
+
 
 		if (c === ')') {
 			while (opStack[opStack.length - 1] !== '(' && opStack.length) {
